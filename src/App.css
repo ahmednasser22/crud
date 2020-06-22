@@ -1,0 +1,25 @@
+.App {
+  text-align: center;
+}
+h2{
+  font-size: 40px;
+  letter-spacing: 2px;
+  color: #FFF;
+  text-transform: uppercase;
+  position: relative;
+}
+h2:after{
+  content: "";
+  position: absolute;
+  width: 10%;
+  height: 5%;
+  background-color: white;
+  bottom: -6%;
+  right: 45%;
+}
+ul p{
+  color: #2f2d2d;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+}

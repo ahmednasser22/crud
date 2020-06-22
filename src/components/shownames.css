@@ -1,0 +1,78 @@
+ul{
+    width: 40%;
+    margin: auto;
+    margin-top: 2%;
+}
+li{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+li .name{
+    display: inline-block;
+    font-size: 20px;
+    color: white;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    width: 30%;
+}
+li .btnsDiv{
+    width: 70%;
+    margin-bottom: 1%;
+}
+
+li span button{
+    border: none;
+    outline: none;
+    padding: 10px;
+    text-transform: capitalize;
+    font-weight: bold;
+    background: none;
+    border: 1px solid white;
+    cursor: pointer;
+    color: white;
+    transition: .5s ease-in-out;
+    margin-right: 2%;
+}
+li span button:hover{
+    background-color: #ffffff50;
+    color: #FFF;
+}
+
+@media(max-width : 1215px){
+    ul{
+        width: 70%;
+    }
+    li .name{
+        width: 40%;
+    }
+    li .btnsDiv{
+        width: 60%;
+    }
+}
+
+@media(max-width : 600px){
+    li .name{
+        font-size: 18px;
+    }
+}
+
+.editname{
+    margin-bottom: 1%;
+}
+.editname input{
+    padding: 10px;
+    outline: none;
+    margin-right: 2%;
+    border: 1px solid white;
+    background: none;
+    color: white;
+    width: 10%;
+    transition: .3s ease-in-out;
+    font-weight: bold;
+}
+form input:focus{
+    width: 30%;
+    background-color: #ffffff30;
+    color: white;
+}

@@ -1,0 +1,47 @@
+.addname input{
+    padding: 10px;
+    outline: none;
+    margin-right: 2%;
+    border: 1px solid white;
+    background: none;
+    color: white;
+    width: 8%;
+    transition: .3s ease-in-out;
+    font-weight: bold;
+}
+.addname input:focus{
+    /* padding: 11px; */
+    /* font-size: 20px; */
+    width: 15%;
+    background-color: #ffffff30;
+    color: white;
+}
+form input::placeholder{
+    color: white;
+}
+
+form button{
+    border: none;
+    outline: none;
+    padding: 10px;
+    text-transform: capitalize;
+    font-weight: bold;
+    background: none;
+    border: 1px solid white;
+    cursor: pointer;
+    color: white;
+    transition: .5s ease-in-out;
+}
+form button:hover{
+    background-color: #ffffff50;
+    color: #FFF;
+}
+
+@media(max-width : 1215px){
+    .addname input{
+        width: 15%;
+    }
+    .addname input:focus{
+        width: 25%;
+    }
+}
